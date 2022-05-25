@@ -1,0 +1,27 @@
+Mods:{
+  Endtime:{
+    ItemName:{
+      ElectrumBar:"Electrum Bar"
+      ElectrumOre:"Electrum Ore"
+
+      DevHamaxe:"Dev Hamaxe"
+      DevPickaxe:"Dev Pickaxe"
+      DevSword:"Dev Sword"
+      DevCrystal:"Dev Crystal"
+    }
+
+    ItemTooltip:{
+      ElectrumBar:"A bar made from Electrum"
+      ElectrumOre:"Ore infused with electric energy"
+
+      DevHamaxe:"Hamaxe for developer purposes"
+      DevPickaxe:"Pickaxe for developer purposes"
+      DevSword:"Sword for developer purposes"
+      DevCrystal:"A crystal used to create developer items"
+    }
+
+    MapObject:{
+      ElectrumOre:"Electrum"
+    }
+  }
+}

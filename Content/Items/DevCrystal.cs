@@ -9,8 +9,6 @@ namespace Endtime.Content.Items
   {
     public override void SetStaticDefaults()
     {
-      DisplayName.SetDefault("Dev Crystal");
-      Tooltip.SetDefault("Used to create developer items");
       CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 100;
     }
 

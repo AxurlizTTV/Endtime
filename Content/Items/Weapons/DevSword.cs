@@ -9,8 +9,6 @@ namespace Endtime.Content.Items.Weapons
   {
     public override void SetStaticDefaults()
     {
-      DisplayName.SetDefault("Dev Sword");
-      Tooltip.SetDefault("How did you get your hand on this?");
       CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
     }
 
