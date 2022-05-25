@@ -27,6 +27,8 @@ namespace Endtime.Content.Items.Placeables
             Item.useTurn = true;
             Item.autoReuse = true;
 
+            Item.rare = ItemRarityID.Cyan;
+
             Item.createTile = ModContent.TileType<Tiles.ElectrumOre>();
         }
     }

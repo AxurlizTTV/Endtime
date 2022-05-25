@@ -3,6 +3,9 @@ Mods:{
     ItemName:{
       ElectrumBar:"Electrum Bar"
       ElectrumOre:"Electrum Ore"
+      ElectrumSword:"Electrum Sword"
+      ElectrumPickaxe:"Electrum Pickaxe"
+      ElectrumHamaxe:"Electrum Hamaxe"
 
       DevHamaxe:"Dev Hamaxe"
       DevPickaxe:"Dev Pickaxe"
@@ -13,6 +16,9 @@ Mods:{
     ItemTooltip:{
       ElectrumBar:"A bar made from Electrum"
       ElectrumOre:"Ore infused with electric energy"
+      ElectrumSword:"A sword infused with electric energy"
+      ElectrumPickaxe:"A pickaxe infused with electric energy"
+      ElectrumHamaxe:"A hamaxe infused with electric energy"
 
       DevHamaxe:"Hamaxe for developer purposes"
       DevPickaxe:"Pickaxe for developer purposes"

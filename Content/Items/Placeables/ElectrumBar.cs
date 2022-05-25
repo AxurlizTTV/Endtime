@@ -27,8 +27,18 @@ namespace Endtime.Content.Items.Placeables
             Item.useTime = 15;
             Item.autoReuse = true;
 
+            Item.rare = ItemRarityID.Cyan;
+
             Item.createTile = ModContent.TileType<Tiles.ElectrumBars>();
             Item.placeStyle = 0;
+        }
+        
+        public override void AddRecipes()
+        {
+        CreateRecipe()
+            .AddIngredient(ModContent.ItemType<ElectrumOre>(), 3)
+            .AddTile(TileID.Furnaces)
+            .Register();
         }
     }
 }

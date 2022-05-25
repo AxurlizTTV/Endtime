@@ -21,7 +21,7 @@ namespace Endtime.Content.Tiles
             TileObjectData.newTile.LavaDeath = false;
             TileObjectData.addTile(Type);
 
-            AddMapEntry(new Color(200, 200, 200), Language.GetText("MapObject.MetalBar"));
+            AddMapEntry(new Color(125, 249, 255), Language.GetText("MapObject.MetalBar"));
         }
 
         public override bool Drop(int x, int y)
