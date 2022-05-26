@@ -7,6 +7,9 @@ Mods:{
       ElectrumPickaxe:"Electrum Pickaxe"
       ElectrumHamaxe:"Electrum Hamaxe"
 
+      InfernalOre:"Infernal Ore"
+      InfernalBar:"Infernal Bar"
+
       DevHamaxe:"Dev Hamaxe"
       DevPickaxe:"Dev Pickaxe"
       DevSword:"Dev Sword"
@@ -20,6 +23,9 @@ Mods:{
       ElectrumPickaxe:"A pickaxe infused with electric energy"
       ElectrumHamaxe:"A hamaxe infused with electric energy"
 
+      InfernalOre:"Ore infused with burning energy"
+      InfernalBar:"A bar made from Infernal"
+
       DevHamaxe:"Hamaxe for developer purposes"
       DevPickaxe:"Pickaxe for developer purposes"
       DevSword:"Sword for developer purposes"
@@ -28,6 +34,7 @@ Mods:{
 
     MapObject:{
       ElectrumOre:"Electrum"
+      InfernalOre:"Infernal"
     }
   }
 }
