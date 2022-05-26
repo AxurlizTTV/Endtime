@@ -21,7 +21,7 @@ namespace Endtime.Content.Tiles
 
             AddMapEntry(new Color(166, 44, 35), CreateMapEntryName());
 
-            DustType = DustID.Ice;
+            DustType = DustID.Lava;
             ItemDrop = ModContent.ItemType<Items.Placeables.InfernalOre>();
             SoundType = SoundID.Tink;
             SoundStyle = 1;

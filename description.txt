@@ -1,11 +1,19 @@
 End-Time focuses on adding content to the game in pre-hardmode, hardmode and post-moonlord.
 
 Currently we have:
+1 new material
+  - Elemental Catalyst
+
+1 new crafting station
+  - Elemental Anvil
+
 2 new ores and bars
-  - Electrum
-  - Infernal
+  - Electrum (Spawns in Underground Desert)
+  - Infernal (Spawns everywhere, but will spawn in the Underworld eventually)
 
 2 new tools and 1 new weapon
   - Electrum Hamaxe, Pickaxe and Sword
 
 More will be added as the mod slowly grows!
+Discord server is being made...
+Info about every weapon will be in a channel there...

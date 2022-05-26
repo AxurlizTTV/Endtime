@@ -27,7 +27,7 @@ namespace Endtime.Content.Items.Placeables
             Item.useTurn = true;
             Item.autoReuse = true;
 
-            Item.rare = ItemRarityID.Cyan;
+            Item.rare = 4;
 
             Item.createTile = ModContent.TileType<Tiles.InfernalOre>();
         }

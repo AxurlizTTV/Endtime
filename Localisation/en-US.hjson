@@ -1,6 +1,9 @@
 Mods:{
   Endtime:{
     ItemName:{
+      ElementalCatalyst:"Elemental Catalyst"
+      ElementalAnvil:"Elemental Anvil"
+
       ElectrumBar:"Electrum Bar"
       ElectrumOre:"Electrum Ore"
       ElectrumSword:"Electrum Sword"
@@ -17,6 +20,18 @@ Mods:{
     }
 
     ItemTooltip:{
+      ElementalCatalyst:
+        '''
+        A catalyst for elemental crafting
+        Elemental energies swirl around inside it
+        '''
+
+      ElementalAnvil:
+        '''
+        A magical feeling washes over you as you touch the anvil
+        Elemental energies erupt with each swing of a hammer
+        '''
+
       ElectrumBar:"A bar made from Electrum"
       ElectrumOre:"Ore infused with electric energy"
       ElectrumSword:"A sword infused with electric energy"
@@ -35,6 +50,7 @@ Mods:{
     MapObject:{
       ElectrumOre:"Electrum"
       InfernalOre:"Infernal"
+      ElementalAnvil:"Elemental Anvil"
     }
   }
 }

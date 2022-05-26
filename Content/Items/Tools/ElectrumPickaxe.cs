@@ -39,7 +39,7 @@ namespace Endtime.Content.Items.Tools
       CreateRecipe()
        .AddRecipeGroup(RecipeGroupID.Wood, 5)
         .AddIngredient(ModContent.ItemType<ElectrumBar>(), 20)
-        .AddTile(TileID.Anvils)
+        .AddTile<Tiles.Furniture.ElementalAnvil>()
         .Register();
     }
   }
