@@ -7,7 +7,7 @@ using Terraria.ObjectData;
 
 namespace Endtime.Content.Tiles.Furniture
 {
-	public class ElementalAnvil : ModTile
+	internal class ElementalAnvil : ModTile
 	{
 		public override void SetStaticDefaults() {
 			Main.tileTable[Type] = true;

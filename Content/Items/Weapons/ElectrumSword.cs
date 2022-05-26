@@ -35,6 +35,11 @@ namespace Endtime.Content.Items.Weapons
       Item.UseSound = SoundID.Item1;
     }
 
+    public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit) {
+            
+      target.AddBuff(BuffID.Confused, 300);
+    }
+
     public override void AddRecipes()
     {
       CreateRecipe()
