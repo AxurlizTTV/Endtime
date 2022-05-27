@@ -25,7 +25,7 @@ namespace Endtime.Content.Items.Weapons
 			Item.noMelee = true;
 			Item.knockBack = 4;
 			Item.value = Item.buyPrice(silver: 70);
-			Item.rare = ItemRarityID.Cyan;
+			Item.rare = ItemRarityID.Yellow;
 			Item.UseSound = SoundID.Item71;
 			Item.autoReuse = true;
 			Item.shoot = ProjectileID.PurpleLaser;

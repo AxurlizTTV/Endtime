@@ -19,7 +19,7 @@ namespace Endtime.Content.Tiles
             Main.tileSpelunker[Type] = true;
             Main.tileOreFinderPriority[Type] = 420;
 
-            AddMapEntry(new Color(102, 199, 204), CreateMapEntryName());
+            AddMapEntry(new Color(171, 171, 34), CreateMapEntryName());
 
             DustType = DustID.Ice;
             ItemDrop = ModContent.ItemType<Items.Placeables.ElectrumOre>();

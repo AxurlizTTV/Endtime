@@ -29,7 +29,7 @@ namespace Endtime.Content.Items.Tools
         Item.knockBack = 2f;
 
         Item.value = Item.buyPrice(silver: 70);
-        Item.rare = ItemRarityID.Cyan;
+        Item.rare = ItemRarityID.Yellow;
 
         Item.pick = 110;
     }

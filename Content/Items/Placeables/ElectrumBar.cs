@@ -27,7 +27,7 @@ namespace Endtime.Content.Items.Placeables
             Item.useTime = 15;
             Item.autoReuse = true;
 
-            Item.rare = ItemRarityID.Cyan;
+            Item.rare = ItemRarityID.Yellow;
 
             Item.createTile = ModContent.TileType<Tiles.ElectrumBars>();
             Item.placeStyle = 0;
