@@ -7,9 +7,10 @@ Currently we have:
 1 new crafting station
   - Elemental Anvil
 
-2 new ores and bars
+3 new ores and bars
   - Electrum (Spawns in Underground Desert)
   - Infernal (Spawns by pools of lava underground)
+  - Hailstone (spawns in the snow and underground snow biome)
 
 2 new tools and 2 new weapons
   - Electrum Hamaxe, Pickaxe and Sword

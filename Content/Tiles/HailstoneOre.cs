@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework;
 
 namespace Endtime.Content.Tiles
 {
-    internal class InfernalOre : ModTile
+    internal class HailstoneOre : ModTile
     {
         public override void SetStaticDefaults()
         {
@@ -19,10 +19,10 @@ namespace Endtime.Content.Tiles
             Main.tileSpelunker[Type] = true;
             Main.tileOreFinderPriority[Type] = 550;
 
-            AddMapEntry(new Color(166, 44, 35), CreateMapEntryName());
+            AddMapEntry(new Color(0,206,209), CreateMapEntryName());
 
-            DustType = 6;
-            ItemDrop = ModContent.ItemType<Items.Placeables.InfernalOre>();
+            DustType = DustID.Ice;
+            ItemDrop = ModContent.ItemType<Items.Placeables.HailstoneOre>();
             SoundType = SoundID.Tink;
             SoundStyle = 1;
 

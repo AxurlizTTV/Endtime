@@ -17,11 +17,11 @@ namespace Endtime.Content.Tiles
             Main.tileShine[Type] = 900;
             Main.tileShine2[Type] = true;
             Main.tileSpelunker[Type] = true;
-            Main.tileOreFinderPriority[Type] = 420;
+            Main.tileOreFinderPriority[Type] = 550;
 
             AddMapEntry(new Color(171, 171, 34), CreateMapEntryName());
 
-            DustType = DustID.Ice;
+            DustType = 10;
             ItemDrop = ModContent.ItemType<Items.Placeables.ElectrumOre>();
             SoundType = SoundID.Tink;
             SoundStyle = 1;
