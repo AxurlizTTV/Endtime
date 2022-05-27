@@ -5,9 +5,9 @@ using Terraria.GameContent.Creative;
 using Endtime.Content.Items.Placeables;
 using Microsoft.Xna.Framework;
 
-namespace Endtime.Content.Items.Weapons
+namespace Endtime.Content.Items.Tools
 {
-  internal class InfernalSword : ModItem
+  internal class InfernalPickaxe : ModItem
   {
     public override void SetStaticDefaults()
     {
@@ -16,25 +16,23 @@ namespace Endtime.Content.Items.Weapons
 
     public override void SetDefaults()
     {
-      Item.width = 60;
-      Item.height = 68;
-      Item.scale = 1.25f;
+        Item.width = 42;
+        Item.height = 42;
 
-      Item.useStyle = ItemUseStyleID.Swing;
-      Item.useTime = 35;
-      Item.useAnimation = 35;
-      Item.autoReuse = false;
-      Item.useTurn = false;
+        Item.useTime = 15;
+        Item.useAnimation = 20;
+        Item.autoReuse = true;
+        Item.useStyle = ItemUseStyleID.Swing;
+        Item.useTurn = true;
 
-      Item.DamageType = DamageClass.Melee;
-      Item.damage = 55;
-      Item.knockBack = 10f;
-      Item.crit = 7;
+        Item.DamageType = DamageClass.Melee;
+        Item.damage = 15;
+        Item.knockBack = 2f;
 
-      Item.value = Item.buyPrice(silver: 70);
-      Item.rare = ItemRarityID.Orange;
+        Item.value = Item.buyPrice(silver: 70);
+        Item.rare = ItemRarityID.Orange;
 
-      Item.UseSound = SoundID.Item1;
+        Item.pick = 110;
     }
 
     public override Color? GetAlpha(Color lightColor)
@@ -59,7 +57,8 @@ namespace Endtime.Content.Items.Weapons
     public override void AddRecipes()
     {
       CreateRecipe()
-        .AddIngredient(ModContent.ItemType<InfernalBar>(), 30)
+       .AddRecipeGroup(RecipeGroupID.Wood, 5)
+        .AddIngredient(ModContent.ItemType<InfernalBar>(), 20)
         .AddTile<Tiles.Furniture.ElementalAnvil>()
         .Register();
     }

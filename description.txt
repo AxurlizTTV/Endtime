@@ -1,8 +1,9 @@
 End-Time focuses on adding content to the game in pre-hardmode, hardmode and post-moonlord.
 
 Currently we have:
-1 new material
+2 new materials
   - Elemental Catalyst
+  - Elemental Spell Tome
 
 1 new crafting station
   - Elemental Anvil
@@ -12,9 +13,9 @@ Currently we have:
   - Infernal (Spawns by pools of lava underground)
   - Hailstone (spawns in the snow and underground snow biome)
 
-2 new tools and 2 new weapons
+3 new tools and 2 new weapons
   - Electrum Hamaxe, Pickaxe and Sword
-  - Infernal Sword
+  - Infernal Pickaxe and Sword
 
 More will be added as the mod slowly grows!
 Discord server is being made...

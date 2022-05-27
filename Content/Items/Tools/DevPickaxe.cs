@@ -36,7 +36,7 @@ namespace Endtime.Content.Items.Tools
     public override void AddRecipes()
     {
       CreateRecipe()
-       .AddRecipeGroup(RecipeGroupID.Wood, 8)
+        .AddRecipeGroup(RecipeGroupID.Wood, 8)
         .AddIngredient(ModContent.ItemType<DevCrystal>(), 25)
         .AddTile(TileID.MythrilAnvil)
         .Register();
