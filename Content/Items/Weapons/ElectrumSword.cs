@@ -15,8 +15,8 @@ namespace Endtime.Content.Items.Weapons
 
     public override void SetDefaults()
     {
-      Item.width = 44;
-      Item.height = 44;
+      Item.width = 84;
+      Item.height = 84;
 
       Item.useStyle = ItemUseStyleID.Swing;
       Item.useTime = 25;
@@ -37,7 +37,7 @@ namespace Endtime.Content.Items.Weapons
 
     public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit) {
             
-      target.AddBuff(BuffID.Confused, 300);
+      target.AddBuff(BuffID.Confused, 120);
     }
 
     public override void AddRecipes()

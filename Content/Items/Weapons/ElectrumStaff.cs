@@ -17,7 +17,7 @@ namespace Endtime.Content.Items.Weapons
 			Item.damage = 27;
 			Item.DamageType = DamageClass.Magic;
 			Item.width = 60;
-			Item.height = 2;
+			Item.height = 60;
 			Item.useTime = 20;
 			Item.useAnimation = 20;
 			Item.useStyle = 5;

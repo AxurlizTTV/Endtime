@@ -8,7 +8,7 @@ Mods:{
       ElectrumOre:"Electrum Ore"
       ElectrumPickaxe:"Electrum Pickaxe"
       ElectrumHamaxe:"Electrum Hamaxe"
-      ElectrumSword:"Electrum Sword"
+      ElectrumSword:"Electrum Greatsword"
       ElectrumStaff:"Electrum Staff"
 
       InfernalOre:"Infernal Ore"
@@ -34,11 +34,8 @@ Mods:{
 
       ElectrumBar:"A bar made from Electrum"
       ElectrumOre:"Ore infused with electric energy"
-      ElectrumSword:
-        '''
-        A sword infused with electric energy
-        Confuses targets for 5 seconds
-        '''
+
+      ElectrumSword:"A sword infused with electric energy"
       ElectrumStaff:"A staff thats pulling the electric energy from the desert"
       ElectrumPickaxe:"A pickaxe infused with electric energy"
       ElectrumHamaxe:"A hamaxe infused with electric energy"
