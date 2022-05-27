@@ -27,7 +27,7 @@ namespace Endtime.Content.Tiles
             SoundStyle = 1;
 
             MineResist = 1.5f;
-            MinPick = 55;
+            MinPick = 65;
         }
     }
 }

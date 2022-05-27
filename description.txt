@@ -9,11 +9,11 @@ Currently we have:
 
 2 new ores and bars
   - Electrum (Spawns in Underground Desert)
-  - Infernal (Spawns everywhere, but will spawn in the Underworld eventually)
+  - Infernal (Spawns by pools of lava underground)
 
 2 new tools and 1 new weapon
   - Electrum Hamaxe, Pickaxe and Sword
 
 More will be added as the mod slowly grows!
 Discord server is being made...
-Info about every weapon will be in a channel there...
+Info about everything will be in a channel there...
