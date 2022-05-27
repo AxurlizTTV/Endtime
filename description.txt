@@ -11,8 +11,9 @@ Currently we have:
   - Electrum (Spawns in Underground Desert)
   - Infernal (Spawns by pools of lava underground)
 
-2 new tools and 1 new weapon
+2 new tools and 2 new weapons
   - Electrum Hamaxe, Pickaxe and Sword
+  - Infernal Sword
 
 More will be added as the mod slowly grows!
 Discord server is being made...

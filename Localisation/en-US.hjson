@@ -13,6 +13,7 @@ Mods:{
 
       InfernalOre:"Infernal Ore"
       InfernalBar:"Infernal Bar"
+      InfernalSword:"Infernal Claymore"
 
       DevHamaxe:"Dev Hamaxe"
       DevPickaxe:"Dev Pickaxe"
@@ -42,6 +43,7 @@ Mods:{
 
       InfernalOre:"Ore infused with burning energy"
       InfernalBar:"A bar made from Infernal"
+      InfernalSword:"It burns with your rage"
 
       DevHamaxe:"Hamaxe for developer purposes"
       DevPickaxe:"Pickaxe for developer purposes"
