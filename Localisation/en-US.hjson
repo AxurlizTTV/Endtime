@@ -17,6 +17,7 @@ Mods:{
       InfernalPickaxe:"Infernal Pickaxe"
       InfernalAxe:"Infernal Waraxe"
       InfernalSword:"Infernal Claymore"
+      InfernalSpell:"Flame Torrent"
 
       HailstoneOre:"Hailstone Ore"
 
@@ -57,6 +58,7 @@ Mods:{
       InfernalPickaxe:"The ground singe with every hit"
       InfernalAxe:"The smell of burning trees fill the air"
       InfernalSword:"It burns with your rage"
+      InfernalSpell:"Release a torrent of flames that burns your target"
 
       HailstoneOre:"Ore infused with frozen energy"
 

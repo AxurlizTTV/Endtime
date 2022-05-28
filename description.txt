@@ -13,9 +13,9 @@ Currently we have:
   - Infernal (Spawns by pools of lava underground)
   - Hailstone (spawns in the snow and underground snow biome)
 
-4 new tools and 2 new weapons
-  - Electrum Hamaxe, Pickaxe and Sword
-  - Infernal Waraxe, Pickaxe and Sword
+4 new tools and 4 new weapons
+  - Electrum Hamaxe, Pickaxe, Staff and Sword
+  - Infernal Waraxe, Pickaxe, Spell and Sword
 
 1 new enemy
   - Infernal Slime (spawns rarely in the caverns layer, more often in hardmode)

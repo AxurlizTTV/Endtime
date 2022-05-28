@@ -32,7 +32,7 @@ namespace Endtime.Content.Items.Weapons
       Item.crit = 7;
 
       Item.value = Item.buyPrice(silver: 70);
-      Item.rare = ItemRarityID.Orange;
+      Item.rare = 4;
 
       Item.UseSound = SoundID.Item1;
     }
