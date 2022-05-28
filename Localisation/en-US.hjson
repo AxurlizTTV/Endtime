@@ -3,7 +3,7 @@ Mods:{
     ItemName:{
       ElementalCatalyst:"Elemental Catalyst"
       ElementalAnvil:"Elemental Anvil"
-      ElementalTome:"Elemental Spell Tome"
+      ElementalBook:"Book of the Elements"
 
       ElectrumBar:"Electrum Bar"
       ElectrumOre:"Electrum Ore"
@@ -15,6 +15,7 @@ Mods:{
       InfernalOre:"Infernal Ore"
       InfernalBar:"Infernal Bar"
       InfernalPickaxe:"Infernal Pickaxe"
+      InfernalAxe:"Infernal Waraxe"
       InfernalSword:"Infernal Claymore"
 
       HailstoneOre:"Hailstone Ore"
@@ -36,10 +37,10 @@ Mods:{
         A magical feeling washes over you as you touch the anvil
         Elemental energies erupt with each swing of a hammer
         '''
-      ElementalTome:
+      ElementalBook:
         '''
-        The tome is fused with the catalyst
-        Allowing for targeted elemental spell crafting
+        The book is fused with the catalyst
+        Allowing for targeted basic elemental spell crafting
         '''
 
       ElectrumBar:"A bar made from Electrum"
@@ -54,6 +55,7 @@ Mods:{
       InfernalBar:"A bar made from Infernal"
 
       InfernalPickaxe:"The ground singe with every hit"
+      InfernalAxe:"The smell of burning trees fill the air"
       InfernalSword:"It burns with your rage"
 
       HailstoneOre:"Ore infused with frozen energy"

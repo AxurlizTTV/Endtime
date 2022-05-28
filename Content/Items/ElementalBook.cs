@@ -5,7 +5,7 @@ using Terraria.GameContent.Creative;
 
 namespace Endtime.Content.Items
 {
-  internal class ElementalTome : ModItem
+  internal class ElementalBook : ModItem
   {
     public override void SetStaticDefaults()
     {
@@ -24,7 +24,7 @@ namespace Endtime.Content.Items
     public override void AddRecipes()
     {
       CreateRecipe()
-        .AddIngredient(ItemID.SpellTome, 1)
+        .AddIngredient(ItemID.Book, 1)
         .AddIngredient(ModContent.ItemType<ElementalCatalyst>(), 1)
         .AddTile<Tiles.Furniture.ElementalAnvil>()
         .Register();

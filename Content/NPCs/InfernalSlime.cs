@@ -40,7 +40,7 @@ namespace Endtime.Content.NPCs
 			NPC.DeathSound = SoundID.NPCDeath1;
 			NPC.value = 150f;
       AnimationType = NPCID.BlueSlime;
-		}
+		} 
 
     public override void SetBestiary(BestiaryDatabase database, BestiaryEntry bestiaryEntry)
     {
@@ -52,16 +52,16 @@ namespace Endtime.Content.NPCs
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo) {
-			if (spawnInfo.Player.ZoneDungeon || spawnInfo.Player.ZoneJungle || spawnInfo.Player.ZoneSnow ||
-          spawnInfo.Player.ZoneUndergroundDesert || spawnInfo.Player.ZoneGlowshroom || spawnInfo.Player.ZoneCrimson ||
-          spawnInfo.Player.ZoneCorrupt || spawnInfo.Player.ZoneHallow)
-        return spawnInfo.Player.ZoneRockLayerHeight ? 0f : 0f;
+			if(spawnInfo.Player.ZoneDungeon || spawnInfo.Player.ZoneJungle || spawnInfo.Player.ZoneSnow ||
+        spawnInfo.Player.ZoneUndergroundDesert || spawnInfo.Player.ZoneGlowshroom || spawnInfo.Player.ZoneCrimson ||
+        spawnInfo.Player.ZoneCorrupt || spawnInfo.Player.ZoneHallow)
+        	return spawnInfo.Player.ZoneRockLayerHeight ? 0f : 0f;
 
-      if (!Main.hardMode)
-          return spawnInfo.Player.ZoneRockLayerHeight ? 0.1f : 0f;
+      if(!Main.hardMode)
+          return spawnInfo.Player.ZoneRockLayerHeight ? 0.04f : 0f;
 
           else
-          return spawnInfo.Player.ZoneRockLayerHeight ? 0.4f : 0f;
+          return spawnInfo.Player.ZoneRockLayerHeight ? 0.12f : 0f;
 		}
 
 		public override void AI()
@@ -84,5 +84,17 @@ namespace Endtime.Content.NPCs
 			}
 			npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<InfernalOre>(),5,1,3));
 		}
+
+		public override void OnHitPlayer(Player target, int damage, bool crit)
+		{
+			int buffType = BuffID.OnFire;
+			int timeToAdd = 5 * 60;
+			target.AddBuff(buffType, timeToAdd);
+		}
+
+		public override Color? GetAlpha(Color lightColor)
+    {
+        return Color.White;
+    }
 	}
 }

@@ -3,7 +3,7 @@ End-Time focuses on adding content to the game in pre-hardmode, hardmode and pos
 Currently we have:
 2 new materials
   - Elemental Catalyst
-  - Elemental Spell Tome
+  - Elemental Book
 
 1 new crafting station
   - Elemental Anvil
@@ -13,9 +13,9 @@ Currently we have:
   - Infernal (Spawns by pools of lava underground)
   - Hailstone (spawns in the snow and underground snow biome)
 
-3 new tools and 2 new weapons
+4 new tools and 2 new weapons
   - Electrum Hamaxe, Pickaxe and Sword
-  - Infernal Pickaxe and Sword
+  - Infernal Waraxe, Pickaxe and Sword
 
 1 new enemy
   - Infernal Slime (spawns rarely in the caverns layer, more often in hardmode)
