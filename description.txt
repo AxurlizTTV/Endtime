@@ -17,6 +17,9 @@ Currently we have:
   - Electrum Hamaxe, Pickaxe and Sword
   - Infernal Pickaxe and Sword
 
+1 new enemy
+  - Infernal Slime (spawns rarely in the caverns layer, more often in hardmode)
+
 More will be added as the mod slowly grows!
 Discord server is being made...
 Info about everything will be in a channel there...

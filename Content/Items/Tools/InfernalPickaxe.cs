@@ -37,7 +37,7 @@ namespace Endtime.Content.Items.Tools
 
     public override Color? GetAlpha(Color lightColor)
     {
-        return Color.Orange;
+        return Color.White;
     }
 
     public override void MeleeEffects(Player player, Rectangle hitbox)

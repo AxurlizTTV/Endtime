@@ -64,6 +64,10 @@ Mods:{
       DevCrystal:"A crystal used to create developer items"
     }
 
+    NPCName: {
+      InfernalSlime:"Infernal Slime"
+    }
+
     MapObject:{
       ElectrumOre:"Electrum"
       InfernalOre:"Infernal"
