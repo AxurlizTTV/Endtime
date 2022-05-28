@@ -58,21 +58,34 @@ namespace Endtime.Content.NPCs
         	return spawnInfo.Player.ZoneRockLayerHeight ? 0f : 0f;
 
       if(!Main.hardMode)
-          return spawnInfo.Player.ZoneRockLayerHeight ? 0.04f : 0f;
+          return spawnInfo.Player.ZoneRockLayerHeight && NPC.downedBoss2 ? 0.04f : 0f;
 
           else
-          return spawnInfo.Player.ZoneRockLayerHeight ? 0.12f : 0f;
+          return spawnInfo.Player.ZoneRockLayerHeight && NPC.downedBoss2 ? 0.12f : 0f;
 		}
 
 		public override void AI()
-        {
-            NPC.ai[0]++;
-            Player P = Main.player[NPC.target];
-            if (NPC.target < 0 || NPC.target == 255 || Main.player[NPC.target].dead || !Main.player[NPC.target].active)
-            {
-                NPC.TargetClosest(true);
-            }
+      {
+        NPC.ai[0]++;
+        Player P = Main.player[NPC.target];
+        if (NPC.target < 0 || NPC.target == 255 || Main.player[NPC.target].dead || !Main.player[NPC.target].active)
+          {
+            NPC.TargetClosest(true);
+          }
             NPC.netUpdate = true;
+
+						Vector2 DustPos = NPC.position;
+            int DustWidth = NPC.width;
+            int DustHeight = NPC.height;
+            int DustType = 6;
+            float DustSpeedX = 0f;
+            float DustSpeedY = 0f;
+            int DustAlpha = 0;
+            float DustSize = 1f;
+            if (Main.rand.Next(3) == 0)
+            {
+              Dust.NewDust(DustPos, DustWidth, DustHeight, DustType, DustSpeedX, DustSpeedY, DustAlpha, default(Color), DustSize);
+            }
         }
     
     public override void ModifyNPCLoot(NPCLoot npcLoot)
