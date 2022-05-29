@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rSNxTKKJNy1IbvepNW2L2Y7fxnK7uvTSa1tRkgyiVwrt+som76W6x/+4KZY+1BMvNTvkBKV15NzQ3TgqPXcYWQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\gojop\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Endtime\\Endtime.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gojop\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
