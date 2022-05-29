@@ -7,6 +7,7 @@ Mods:{
 
       ElectrumBar:"Electrum Bar"
       ElectrumOre:"Electrum Ore"
+
       ElectrumPickaxe:"Electrum Pickaxe"
       ElectrumHamaxe:"Electrum Hamaxe"
       ElectrumSword:"Electrum Greatsword"
@@ -14,6 +15,11 @@ Mods:{
 
       InfernalOre:"Infernal Ore"
       InfernalBar:"Infernal Bar"
+
+      InfernalHelmet:"Infernal Helmet"
+      InfernalBreastplate:"Infernal Breastplate"
+      InfernalLeggings:"Infernal Greaves"
+
       InfernalPickaxe:"Infernal Pickaxe"
       InfernalAxe:"Infernal Waraxe"
       InfernalSword:"Infernal Claymore"
@@ -55,6 +61,20 @@ Mods:{
 
       InfernalOre:"Ore infused with burning energy"
       InfernalBar:"A bar made from Infernal"
+
+      InfernalHelmet:
+        '''
+        9% increased melee damage
+        '''
+      InfernalBreastplate:
+        '''
+        9% increased melee critical strike chance
+        '''
+      InfernalLeggings:
+        '''
+        10% reduced movement speed
+        10% increased melee attack speed
+        '''
 
       InfernalPickaxe:"The ground singe with every hit"
       InfernalAxe:"The smell of burning trees fill the air"
