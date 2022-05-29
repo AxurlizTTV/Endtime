@@ -20,6 +20,7 @@ Mods:{
       InfernalSpell:"Flame Torrent"
 
       HailstoneOre:"Hailstone Ore"
+      HailstoneBar:"Hailstone Bar"
 
       DevHamaxe:"Dev Hamaxe"
       DevPickaxe:"Dev Pickaxe"
@@ -61,6 +62,7 @@ Mods:{
       InfernalSpell:"Release a torrent of flames that burns your target"
 
       HailstoneOre:"Ore infused with frozen energy"
+      HailstoneBar:"A bare made from Hailstone"
 
       DevHamaxe:"Hamaxe for developer purposes"
       DevPickaxe:"Pickaxe for developer purposes"
