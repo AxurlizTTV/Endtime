@@ -2,6 +2,7 @@ Mods:{
   Endtime:{
     ItemName:{
       ElementalCatalyst:"Elemental Catalyst"
+      ElementalSoul:"Elemental Soul"
       ElementalAnvil:"Elemental Anvil"
       ElementalBook:"Book of the Elements"
 
@@ -39,6 +40,11 @@ Mods:{
         '''
         A catalyst for elemental crafting
         Elemental energies swirl around inside it
+        '''
+      ElementalSoul:
+        '''
+        A soul made of elemental energy
+        Elemental energies are clashing
         '''
       ElementalAnvil:
         '''

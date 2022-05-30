@@ -5,7 +5,7 @@ using Terraria.GameContent.Creative;
 
 namespace Endtime.Content.Items
 {
-  internal class ElementalCatalyst : ModItem
+  internal class ElementalSoul : ModItem
   {
     public override void SetStaticDefaults()
     {
@@ -14,8 +14,8 @@ namespace Endtime.Content.Items
 
     public override void SetDefaults()
     {
-      Item.width = 26;
-      Item.height = 38;
+      Item.width = 38;
+      Item.height = 46;
       Item.value = Item.buyPrice(gold: 2);
       Item.maxStack = 999;
       Item.rare = -12;
