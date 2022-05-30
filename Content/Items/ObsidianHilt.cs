@@ -5,7 +5,7 @@ using Terraria.GameContent.Creative;
 
 namespace Endtime.Content.Items
 {
-  internal class ElementalCatalyst : ModItem
+  internal class ObsidianHilt : ModItem
   {
     public override void SetStaticDefaults()
     {
@@ -15,21 +15,18 @@ namespace Endtime.Content.Items
     public override void SetDefaults()
     {
       Item.width = 26;
-      Item.height = 38;
+      Item.height = 26;
       Item.value = Item.buyPrice(gold: 2);
       Item.maxStack = 999;
-      Item.rare = -12;
+      Item.rare = -1;
     }
 
     public override void AddRecipes()
-    {
-      CreateRecipe()
-        .AddIngredient(ModContent.ItemType<InfernalFragment>(), 1)
-        .AddIngredient(ModContent.ItemType<HailstoneFragment>(), 1)
-        .AddIngredient(ModContent.ItemType<ZephyriteFragment>(), 1)
-        .AddIngredient(ModContent.ItemType<ElectrumFragment>(), 1)
-        .AddTile(TileID.Anvils)
-        .Register();
-    }
+        {
+        CreateRecipe()
+            .AddIngredient(ItemID.Obsidian, 10)
+            .AddTile(TileID.Anvils)
+            .Register();
+        }
   }
 }

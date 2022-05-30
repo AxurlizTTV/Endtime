@@ -39,6 +39,11 @@ namespace Endtime.Content.Items.Armor
             player.buffImmune[BuffID.OnFire] = true;
             player.buffImmune[BuffID.Burning] = true;
             player.lavaImmune = true;
+			if (Main.rand.Next(10) == 0)
+				{
+					Dust.NewDustPerfect(new Vector2(player.position.X + Main.rand.Next(player.width), player.position.Y + player.height - Main.rand.Next(50)), 6, Vector2.Zero);
+				}
+			Lighting.AddLight(player.position, 0.99f, 0.57f, 0.11f);
 		}
 
 		public override void AddRecipes()

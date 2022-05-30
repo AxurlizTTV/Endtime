@@ -40,7 +40,7 @@ namespace Endtime.Content.Items.Weapons
         {
         CreateRecipe()
             .AddIngredient(ModContent.ItemType<InfernalBar>(), 20)
-            .AddIngredient(ModContent.ItemType<ElementalBook>(), 1)
+            .AddIngredient(ModContent.ItemType<ElementalImbuedBook>(), 1)
             .AddTile<Tiles.Furniture.ElementalAnvil>()
             .Register();
         }

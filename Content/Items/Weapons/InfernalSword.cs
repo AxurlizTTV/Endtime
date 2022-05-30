@@ -44,7 +44,7 @@ namespace Endtime.Content.Items.Weapons
 
     public override void MeleeEffects(Player player, Rectangle hitbox)
     {
-		if (Main.rand.NextBool(3))
+		if (Main.rand.Next(1) == 0)
         {
             Dust.NewDust(new Vector2(hitbox.X, hitbox.Y), hitbox.Width, hitbox.Height, 6);
         }
@@ -60,6 +60,7 @@ namespace Endtime.Content.Items.Weapons
     {
       CreateRecipe()
         .AddIngredient(ModContent.ItemType<InfernalBar>(), 30)
+        .AddIngredient(ModContent.ItemType<ElementalImbuedHilt>(), 1)
         .AddTile<Tiles.Furniture.ElementalAnvil>()
         .Register();
     }

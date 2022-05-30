@@ -12,7 +12,10 @@ namespace Endtime.Common.Players
         {
 			return new[]
             {
-				new Item(ModContent.ItemType<ElementalCatalyst>())
+				new Item(ModContent.ItemType<ElectrumFragment>(), 999),
+				new Item(ModContent.ItemType<ZephyriteFragment>(), 999),
+				new Item(ModContent.ItemType<HailstoneFragment>(), 999),
+				new Item(ModContent.ItemType<InfernalFragment>(), 999)
 			};
 		}
 	}

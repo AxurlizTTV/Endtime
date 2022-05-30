@@ -5,7 +5,7 @@ using Terraria.GameContent.Creative;
 
 namespace Endtime.Content.Items
 {
-  internal class ElementalBook : ModItem
+  internal class ElementalImbuedHilt : ModItem
   {
     public override void SetStaticDefaults()
     {
@@ -14,7 +14,7 @@ namespace Endtime.Content.Items
 
     public override void SetDefaults()
     {
-      Item.width = 28;
+      Item.width = 30;
       Item.height = 30;
       Item.value = Item.buyPrice(gold: 2);
       Item.maxStack = 999;
@@ -24,8 +24,8 @@ namespace Endtime.Content.Items
     public override void AddRecipes()
     {
       CreateRecipe()
-        .AddIngredient(ItemID.Book, 1)
         .AddIngredient(ModContent.ItemType<ElementalCatalyst>(), 1)
+        .AddIngredient(ModContent.ItemType<ObsidianHilt>(), 1)
         .AddTile<Tiles.Furniture.ElementalAnvil>()
         .Register();
     }

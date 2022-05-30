@@ -44,6 +44,7 @@ namespace Endtime.Content.Items.Weapons
     {
       CreateRecipe()
         .AddIngredient(ModContent.ItemType<ElectrumBar>(), 20)
+        .AddIngredient(ModContent.ItemType<ElementalImbuedHilt>(), 1)
         .AddTile<Tiles.Furniture.ElementalAnvil>()
         .Register();
     }

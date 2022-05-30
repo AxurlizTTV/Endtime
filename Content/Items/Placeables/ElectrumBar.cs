@@ -37,7 +37,7 @@ namespace Endtime.Content.Items.Placeables
         {
         CreateRecipe()
             .AddIngredient(ModContent.ItemType<ElectrumOre>(), 3)
-            .AddTile(TileID.Furnaces)
+            .AddTile<Tiles.Furniture.ElementalForge>()
             .Register();
         }
     }

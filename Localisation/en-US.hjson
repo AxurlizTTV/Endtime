@@ -1,10 +1,17 @@
 Mods:{
   Endtime:{
     ItemName:{
+      ElectrumFragment:"Electrum Fragment"
+      InfernalFragment:"Infernal Fragment"
+      HailstoneFragment:"Hailstone Fragment"
+      ZephyriteFragment:"Zephyrite Fragment"
       ElementalCatalyst:"Elemental Catalyst"
       ElementalSoul:"Elemental Soul"
       ElementalAnvil:"Elemental Anvil"
-      ElementalBook:"Book of the Elements"
+      ElementalForge:"Elemental Forge"
+      ElementalImbuedBook:"Elemental Imbued Book"
+      ElementalImbuedHilt:"Elemental Imbued Hilt"
+      ObsidianHilt:"Obsidian Hilt"
 
       ElectrumBar:"Electrum Bar"
       ElectrumOre:"Electrum Ore"
@@ -36,6 +43,10 @@ Mods:{
     }
 
     ItemTooltip:{
+      ElectrumFragment:"A fragment containing electric energy"
+      InfernalFragment:"A fragment containing burning energy"
+      HailstoneFragment:"A fragment containing icy energy"
+      ZephyriteFragment:"A fragment containing windy energy"
       ElementalCatalyst:
         '''
         A catalyst for elemental crafting
@@ -51,11 +62,22 @@ Mods:{
         A magical feeling washes over you as you touch the anvil
         Elemental energies erupt with each swing of a hammer
         '''
-      ElementalBook:
+      ElementalForge:
         '''
-        The book is fused with the catalyst
+        Extreme heat radiates from the latch
+        Raging torrents waiting to be set free
+        '''
+      ElementalImbuedBook:
+        '''
+        The book is imbued with elemental energy
         Allowing for targeted basic elemental spell crafting
         '''
+      ElementalImbuedHilt:
+        '''
+        A obsidian hilt imbued with elemental energy
+        Allowing for targeted basic elemental sword craft
+        '''
+      ObsidianHilt:"A hilt made with obsidian"
 
       ElectrumBar:"A bar made from Electrum"
       ElectrumOre:"Ore infused with electric energy"
@@ -105,6 +127,7 @@ Mods:{
       InfernalOre:"Infernal"
       HailstoneOre:"Hailstone"
       ElementalAnvil:"Elemental Anvil"
+      ElementalForge:"Elemental Forge"
     }
   }
 }

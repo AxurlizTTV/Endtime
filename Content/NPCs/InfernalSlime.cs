@@ -8,6 +8,7 @@ using Terraria.ModLoader.Utilities;
 using Terraria.GameContent.Bestiary;
 using Terraria.GameContent.ItemDropRules;
 using Endtime.Content.Items.Placeables;
+using Endtime.Content.Items;
 
 namespace Endtime.Content.NPCs
 {
@@ -96,6 +97,7 @@ namespace Endtime.Content.NPCs
 				npcLoot.Add(slimeDropRule);
 			}
 			npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<InfernalOre>(),5,1,3));
+			npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<InfernalFragment>(),3,1,1));
 		}
 
 		public override void OnHitPlayer(Player target, int damage, bool crit)
