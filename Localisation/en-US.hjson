@@ -31,16 +31,12 @@ Mods:{
 
       InfernalPickaxe:"Infernal Pickaxe"
       InfernalAxe:"Infernal Waraxe"
+      InfernalHammer:"Infernal Hammer"
       InfernalSword:"Infernal Claymore"
       InfernalSpell:"Flame Torrent"
 
       HailstoneOre:"Hailstone Ore"
       HailstoneBar:"Hailstone Bar"
-
-      DevHamaxe:"Dev Hamaxe"
-      DevPickaxe:"Dev Pickaxe"
-      DevSword:"Dev Sword"
-      DevCrystal:"Dev Crystal"
     }
 
     ItemTooltip:{
@@ -84,14 +80,17 @@ Mods:{
       ElectrumBar:"A bar made from Electrum"
       ElectrumOre:"Ore infused with electric energy"
 
+      // Electrum tools
       ElectrumPickaxe:"A pickaxe infused with electric energy"
       ElectrumHamaxe:"A hamaxe infused with electric energy"
       ElectrumSword:"A sword infused with electric energy"
       ElectrumStaff:"A staff thats pulling the electric energy from the desert"
 
+      // Infernal tiles and materials
       InfernalOre:"Ore infused with burning energy"
       InfernalBar:"A bar made from Infernal"
 
+      // Infernal armor
       InfernalHelmet:
         '''
         9% increased melee damage
@@ -106,21 +105,23 @@ Mods:{
         10% increased melee attack speed
         '''
 
+      // Infernal tools
       InfernalPickaxe:"The ground singe with every hit"
       InfernalAxe:"The smell of burning trees fill the air"
+      InfernalHammer:""
+      
+      // Infernal weapons
       InfernalSword:"It burns with your rage"
       InfernalSpell:"Release a torrent of flames that burns your target"
 
+      // Hailstone tiles and materials
       HailstoneOre:"Ore infused with frozen energy"
       HailstoneBar:"A bare made from Hailstone"
-
-      DevHamaxe:"Hamaxe for developer purposes"
-      DevPickaxe:"Pickaxe for developer purposes"
-      DevSword:"Sword for developer purposes"
-      DevCrystal:"A crystal used to create developer items"
     }
 
     NPCName: {
+
+      // Enemies
       InfernalSlime:"Infernal Slime"
     }
 
