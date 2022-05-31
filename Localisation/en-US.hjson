@@ -12,6 +12,7 @@ Mods:{
       ElementalImbuedBook:"Elemental Imbued Book"
       ElementalImbuedHilt:"Elemental Imbued Hilt"
       ObsidianHilt:"Obsidian Hilt"
+      ObsidianToolHandle:"Obsidian Tool Handle"
 
       ElectrumBar:"Electrum Bar"
       ElectrumOre:"Electrum Ore"
@@ -78,6 +79,7 @@ Mods:{
         Allowing for targeted basic elemental sword craft
         '''
       ObsidianHilt:"A hilt made with obsidian"
+      ObsidianToolHandle:"A tool handle made with obsidian"
 
       ElectrumBar:"A bar made from Electrum"
       ElectrumOre:"Ore infused with electric energy"

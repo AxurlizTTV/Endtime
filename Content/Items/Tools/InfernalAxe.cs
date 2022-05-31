@@ -16,8 +16,8 @@ namespace Endtime.Content.Items.Tools
 
     public override void SetDefaults()
     {
-        Item.width = 60;
-        Item.height = 60;
+        Item.width = 50;
+        Item.height = 50;
 
         Item.useTime = 14;
         Item.useAnimation = 25;
@@ -56,7 +56,7 @@ namespace Endtime.Content.Items.Tools
     public override void AddRecipes()
     {
       CreateRecipe()
-       .AddRecipeGroup(RecipeGroupID.Wood, 8)
+        .AddIngredient(ModContent.ItemType<ObsidianToolHandle>(), 1)
         .AddIngredient(ModContent.ItemType<InfernalBar>(), 15)
         .AddTile<Tiles.Furniture.ElementalAnvil>()
         .Register();

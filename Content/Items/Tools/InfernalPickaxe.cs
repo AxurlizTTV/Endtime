@@ -16,36 +16,36 @@ namespace Endtime.Content.Items.Tools
 
     public override void SetDefaults()
     {
-        Item.width = 42;
-        Item.height = 42;
+      Item.width = 42;
+      Item.height = 42;
 
-        Item.useTime = 15;
-        Item.useAnimation = 20;
-        Item.autoReuse = true;
-        Item.useStyle = ItemUseStyleID.Swing;
-        Item.useTurn = true;
+      Item.useTime = 15;
+      Item.useAnimation = 20;
+      Item.autoReuse = true;
+      Item.useStyle = ItemUseStyleID.Swing;
+      Item.useTurn = true;
 
-        Item.DamageType = DamageClass.Melee;
-        Item.damage = 15;
-        Item.knockBack = 2f;
+      Item.DamageType = DamageClass.Melee;
+      Item.damage = 15;
+      Item.knockBack = 2f;
 
-        Item.value = Item.buyPrice(silver: 70);
-        Item.rare = 4;
+      Item.value = Item.buyPrice(silver: 70);
+      Item.rare = 4;
 
-        Item.pick = 110;
+      Item.pick = 110;
     }
 
     public override Color? GetAlpha(Color lightColor)
     {
-        return Color.White;
+      return Color.White;
     }
 
     public override void MeleeEffects(Player player, Rectangle hitbox)
     {
 		if (Main.rand.NextBool(3))
-        {
-            Dust.NewDust(new Vector2(hitbox.X, hitbox.Y), hitbox.Width, hitbox.Height, 6);
-        }
+      {
+        Dust.NewDust(new Vector2(hitbox.X, hitbox.Y), hitbox.Width, hitbox.Height, 6);
+      }
 	  }
 
 
@@ -57,7 +57,7 @@ namespace Endtime.Content.Items.Tools
     public override void AddRecipes()
     {
       CreateRecipe()
-       .AddRecipeGroup(RecipeGroupID.Wood, 5)
+        .AddIngredient(ModContent.ItemType<ObsidianToolHandle>(), 1)
         .AddIngredient(ModContent.ItemType<InfernalBar>(), 20)
         .AddTile<Tiles.Furniture.ElementalAnvil>()
         .Register();
