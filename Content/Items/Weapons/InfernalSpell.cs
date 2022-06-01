@@ -3,6 +3,7 @@ using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 using Endtime.Content.Items.Placeables;
+using Endtime.Content.Projectiles.Weapons;
 
 namespace Endtime.Content.Items.Weapons
 {
@@ -33,6 +34,7 @@ namespace Endtime.Content.Items.Weapons
             Item.UseSound = SoundID.Item71;
 
             Item.shoot = 837;
+            Item.shoot = ModContent.ProjectileType<InfernalSpellProjectile>();
             Item.shootSpeed = 5f;
         }
 

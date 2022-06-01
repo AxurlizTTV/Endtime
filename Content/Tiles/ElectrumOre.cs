@@ -2,6 +2,7 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
 using Microsoft.Xna.Framework;
+using Terraria.Audio;
 
 namespace Endtime.Content.Tiles
 {
@@ -23,8 +24,7 @@ namespace Endtime.Content.Tiles
 
             DustType = 10;
             ItemDrop = ModContent.ItemType<Items.Placeables.ElectrumOre>();
-            SoundType = SoundID.Tink;
-            SoundStyle = 1;
+            HitSound = SoundID.Tink;
 
             MineResist = 1.5f;
             MinPick = 65;
