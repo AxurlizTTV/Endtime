@@ -54,14 +54,10 @@ namespace Endtime.Content.NPCs
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo) {
-			if(!spawnInfo.Player.ZoneDesert || !spawnInfo.Player.ZoneUndergroundDesert)
-        	return spawnInfo.Player.ZoneUndergroundDesert && spawnInfo.Player.ZoneDesert ? 0f : 0f;
-
       if(!Main.hardMode)
-          return spawnInfo.Player.ZoneUndergroundDesert || spawnInfo.Player.ZoneDesert && NPC.downedBoss2 ? 0.04f : 0f;
-
+          return spawnInfo.Player.ZoneDesert && NPC.downedBoss2 || spawnInfo.Player.ZoneUndergroundDesert && NPC.downedBoss2 ? 0.04f : 0f;
           else
-          return spawnInfo.Player.ZoneUndergroundDesert || spawnInfo.Player.ZoneDesert && NPC.downedBoss2 ? 0.12f : 0f;
+          return spawnInfo.Player.ZoneDesert && NPC.downedBoss2 || spawnInfo.Player.ZoneUndergroundDesert && NPC.downedBoss2 ? 0.12f : 0f;
 		}
 
 		public override void AI()

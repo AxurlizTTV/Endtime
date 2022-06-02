@@ -55,12 +55,8 @@ namespace Endtime.Content.NPCs
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo) {
-			if(!spawnInfo.Player.ZoneSnow)
-        	return spawnInfo.Player.ZoneSnow ? 0f : 0f;
-
       if(!Main.hardMode)
           return spawnInfo.Player.ZoneSnow && NPC.downedBoss2 ? 0.04f : 0f;
-
           else
           return spawnInfo.Player.ZoneSnow && NPC.downedBoss2 ? 0.12f : 0f;
 		}
