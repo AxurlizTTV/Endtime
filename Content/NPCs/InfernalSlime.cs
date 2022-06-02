@@ -83,7 +83,7 @@ namespace Endtime.Content.NPCs
             float DustSpeedY = 0f;
             int DustAlpha = 0;
             float DustSize = 1f;
-            if (Main.rand.Next(3) == 0)
+            if (Main.rand.Next(5) == 0)
             {
               Dust.NewDust(DustPos, DustWidth, DustHeight, DustType, DustSpeedX, DustSpeedY, DustAlpha, default(Color), DustSize);
             }

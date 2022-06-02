@@ -47,10 +47,10 @@ namespace Endtime.Content.NPCs
     public override void SetBestiary(BestiaryDatabase database, BestiaryEntry bestiaryEntry)
     {
 			bestiaryEntry.Info.AddRange(new IBestiaryInfoElement[] {
-				BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.UndergroundSnow,
 				BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.Snow,
+				BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.UndergroundSnow,
 
-				new FlavorTextBestiaryInfoElement("Even tho they are infused with Infernal powers, they collapse in lava.")
+				new FlavorTextBestiaryInfoElement("An icy, cold Slime that will slow down anyone it touches. While nimble, a pack can quickly destroy unfortunate adventurers!")
 			});
 		}
 
@@ -78,12 +78,12 @@ namespace Endtime.Content.NPCs
 						Vector2 DustPos = NPC.position;
             int DustWidth = NPC.width;
             int DustHeight = NPC.height;
-            int DustType = 67;
+            int DustType = 59;
             float DustSpeedX = 0f;
             float DustSpeedY = 0f;
             int DustAlpha = 0;
             float DustSize = 1f;
-            if (Main.rand.Next(3) == 0)
+            if (Main.rand.Next(5) == 0)
             {
               Dust.NewDust(DustPos, DustWidth, DustHeight, DustType, DustSpeedX, DustSpeedY, DustAlpha, default(Color), DustSize);
             }
