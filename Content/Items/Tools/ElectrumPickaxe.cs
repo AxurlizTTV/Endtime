@@ -37,7 +37,7 @@ namespace Endtime.Content.Items.Tools
     public override void AddRecipes()
     {
       CreateRecipe()
-       .AddRecipeGroup(RecipeGroupID.Wood, 5)
+        .AddIngredient(ModContent.ItemType<OnyxToolHandle>(), 1)
         .AddIngredient(ModContent.ItemType<ElectrumBar>(), 20)
         .AddTile<Tiles.Furniture.ElementalAnvil>()
         .Register();

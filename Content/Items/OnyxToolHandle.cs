@@ -5,11 +5,11 @@ using Terraria.GameContent.Creative;
 
 namespace Endtime.Content.Items
 {
-  internal class ObsidianHilt : ModItem
+  internal class OnyxToolHandle : ModItem
   {
     public override void SetStaticDefaults()
     {
-      CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
+      CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 5;
     }
 
     public override void SetDefaults()
@@ -24,7 +24,7 @@ namespace Endtime.Content.Items
     public override void AddRecipes()
         {
         CreateRecipe()
-            .AddIngredient(ItemID.Obsidian, 10)
+            .AddIngredient(ModContent.ItemType<Onyx>(), 5)
             .AddTile(TileID.Anvils)
             .Register();
         }

@@ -57,7 +57,7 @@ namespace Endtime.Content.Items.Tools
     public override void AddRecipes()
     {
       CreateRecipe()
-        .AddIngredient(ModContent.ItemType<ObsidianToolHandle>(), 1)
+        .AddIngredient(ModContent.ItemType<OnyxToolHandle>(), 1)
         .AddIngredient(ModContent.ItemType<InfernalBar>(), 20)
         .AddTile<Tiles.Furniture.ElementalAnvil>()
         .Register();

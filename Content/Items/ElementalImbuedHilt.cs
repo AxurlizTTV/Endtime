@@ -25,7 +25,7 @@ namespace Endtime.Content.Items
     {
       CreateRecipe()
         .AddIngredient(ModContent.ItemType<ElementalCatalyst>(), 1)
-        .AddIngredient(ModContent.ItemType<ObsidianHilt>(), 1)
+        .AddIngredient(ModContent.ItemType<OnyxHilt>(), 1)
         .AddTile<Tiles.Furniture.ElementalAnvil>()
         .Register();
     }
