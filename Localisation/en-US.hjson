@@ -11,8 +11,9 @@ Mods:{
       ElementalForge:"Elemental Forge"
       ElementalImbuedBook:"Elemental Imbued Book"
       ElementalImbuedHilt:"Elemental Imbued Hilt"
-      ObsidianHilt:"Obsidian Hilt"
-      ObsidianToolHandle:"Obsidian Tool Handle"
+      Onyx:"Onyx"
+      OnyxHilt:"Onyx Hilt"
+      OnyxToolHandle:"Onyx Tool Handle"
 
       ElectrumBar:"Electrum Bar"
       ElectrumOre:"Electrum Ore"
@@ -71,11 +72,16 @@ Mods:{
         '''
       ElementalImbuedHilt:
         '''
-        A obsidian hilt imbued with elemental energy
+        A onyx hilt imbued with elemental energy
         Allowing for targeted basic elemental sword craft
         '''
-      ObsidianHilt:"A hilt made with obsidian"
-      ObsidianToolHandle:"A tool handle made with obsidian"
+      Onyx:
+      '''
+      A piece of Onyx
+      Able to contain most elements
+      '''
+      OnyxHilt:"A hilt made from onyx"
+      OnyxToolHandle:"A tool handle made from onyx"
 
       ElectrumBar:"A bar made from Electrum"
       ElectrumOre:"Ore infused with electric energy"
