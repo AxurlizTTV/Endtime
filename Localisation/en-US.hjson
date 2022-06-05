@@ -136,7 +136,8 @@ Mods:{
       FrenziedEye:
       '''
       Enables auto swing for melee weapons
-      Periodically enter a state of frenzy, gaining:
+      Every 30 seconds, you switch in and out of Frenzy
+      While in Frenzy:
       50% increased movement speed
       35% increased melee attack speed
       10% increased melee damage
