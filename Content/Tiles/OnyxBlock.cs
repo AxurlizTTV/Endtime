@@ -15,7 +15,7 @@ namespace Endtime.Content.Tiles
 			DustType = ModContent.DustType<Sparkle>();
 			ItemDrop = ModContent.ItemType<Items.Placeables.OnyxBlock>();
 
-			AddMapEntry(new Color(200, 200, 200));
+			AddMapEntry(new Color(36, 39, 38));
 		}
 
 		public override void NumDust(int i, int j, bool fail, ref int num) {

@@ -24,6 +24,7 @@ namespace Endtime.Content.Items.Placeables
 			Item.useStyle = ItemUseStyleID.Swing;
 			Item.consumable = true;
 			Item.createTile = ModContent.TileType<Tiles.OnyxBlock>();
+            Item.rare = -1;
         }
     }
 }
