@@ -16,8 +16,8 @@ namespace Endtime.Content.Items.Armor
 		}
 
 		public override void SetDefaults() {
-			Item.width = 18;
-			Item.height = 18;
+			Item.width = 24;
+			Item.height = 20;
 			Item.value = Item.sellPrice(silver: 85);
 			Item.rare = 4;
 			Item.defense = 11;
@@ -30,6 +30,7 @@ namespace Endtime.Content.Items.Armor
 		public override void AddRecipes()
         {
         CreateRecipe()
+						.AddIngredient(ModContent.ItemType<Onyx>(), 25)
             .AddIngredient(ModContent.ItemType<InfernalBar>(), 20)
             .AddTile<Tiles.Furniture.ElementalAnvil>()
             .Register();
