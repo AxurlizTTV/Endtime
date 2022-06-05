@@ -12,6 +12,7 @@ Mods:{
       ElementalImbuedBook:"Elemental Imbued Book"
       ElementalImbuedHilt:"Elemental Imbued Hilt"
       Onyx:"Onyx"
+      OnyxSignet:"Onyx Signet"
       OnyxHilt:"Onyx Hilt"
       OnyxToolHandle:"Onyx Tool Handle"
 
@@ -38,6 +39,9 @@ Mods:{
 
       HailstoneOre:"Hailstone Ore"
       HailstoneBar:"Hailstone Bar"
+
+      // Accessories
+      FrenziedEye:"Eye of Frenzy"
     }
 
     ItemTooltip:{
@@ -75,14 +79,18 @@ Mods:{
         A onyx hilt imbued with elemental energy
         Allowing for targeted basic elemental sword craft
         '''
+      
+      // Onyx things
       Onyx:
       '''
       A piece of Onyx
       Able to contain most elements
       '''
+      OnyxSignet:"A signet made from  onyx"
       OnyxHilt:"A hilt made from onyx"
       OnyxToolHandle:"A tool handle made from onyx"
 
+      // Electrum tiles and materials
       ElectrumBar:"A bar made from Electrum"
       ElectrumOre:"Ore infused with electric energy"
 
@@ -123,6 +131,16 @@ Mods:{
       // Hailstone tiles and materials
       HailstoneOre:"Ore infused with frozen energy"
       HailstoneBar:"A bare made from Hailstone"
+
+      // Accessories
+      FrenziedEye:
+      '''
+      Enables auto swing for melee weapons
+      Periodically enter a state of frenzy, gaining:
+      50% increased movement speed
+      35% increased melee attack speed
+      10% increased melee damage
+      '''
     }
 
     NPCName: {
