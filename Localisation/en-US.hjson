@@ -40,6 +40,8 @@ Mods:{
       HailstoneOre:"Hailstone Ore"
       HailstoneBar:"Hailstone Bar"
 
+      HailstonePickaxe:"Hailstone Pickaxe"
+
       // Accessories
       FrenziedEye:"Eye of Frenzy"
     }
@@ -131,6 +133,9 @@ Mods:{
       // Hailstone tiles and materials
       HailstoneOre:"Ore infused with frozen energy"
       HailstoneBar:"A bare made from Hailstone"
+
+      // Hailstone tools
+      HailstonePickaxe:"The ground becomes slippery with each swing"
 
       // Accessories
       FrenziedEye:
