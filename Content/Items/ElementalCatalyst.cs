@@ -14,8 +14,8 @@ namespace Endtime.Content.Items
 
     public override void SetDefaults()
     {
-      Item.width = 26;
-      Item.height = 38;
+      Item.width = 30;
+      Item.height = 24;
       Item.value = Item.buyPrice(gold: 2);
       Item.maxStack = 999;
       Item.rare = -12;
